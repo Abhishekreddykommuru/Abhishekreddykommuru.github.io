@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>K Abhishek Reddy — Portfolio</title>
+  <style>
+    body{
+      margin:0;
+      font-family: Arial, Helvetica, sans-serif;
+      background:#f6f7f9;
+      color:#1f2937;
+      line-height:1.6;
+    }
+    .container{ max-width:900px; margin:0 auto; padding:24px 16px; }
+    .nav{ background:#fff; border-bottom:1px solid #e5e7eb; }
+    .nav .container{ display:flex; gap:16px; }
+    .nav a{
+      text-decoration:none; color:#64748b; padding:8px 10px; border-radius:8px;
+    }
+    .nav a:hover{ background:#eef2ff; color:#111827; }
+    .card{
+      background:#fff; border:1px solid #e5e7eb; border-radius:14px;
+      padding:20px; margin-top:20px; box-shadow:0 1px 2px rgba(0,0,0,.03);
+    }
+    .title{
+      margin:0 0 12px 0; font-size:18px; font-weight:700;
+      border-left:4px solid #2563eb; padding-left:8px;
+    }
+    .hero{ display:flex; gap:16px; align-items:center; }
+    .avatar{
+      width:90px; height:90px; border-radius:50%; object-fit:cover;
+      border:1px solid #e5e7eb; background:#fafafa;
+    }
+    .name{ margin:0; font-size:28px; }
+    .tag{ margin:4px 0 0 0; color:#64748b; font-size:15px; }
+    .list{ display:grid; gap:10px; }
+    .item{
+      padding:12px; border:1px solid #e5e7eb; border-radius:10px; background:#fafafa;
+    }
+    .footer{ text-align:center; color:#64748b; font-size:13px; padding:26px 0 8px; }
+  </style>
+</head>
+<body>
+
+  <div class="nav">
+    <div class="container">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="card">
+      <div class="hero">
+        <img class="avatar" src="photo1.jpg" alt="Abhishek Reddy">
+        <div>
+          <h1 class="name">K Abhishek Reddy</h1>
+          <div class="tag">Computer Science Enthusiast · M.Tech @ IIIT Hyderabad</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="about" class="card">
+      <div class="title">About Me</div>
+      <div>
+        I’m pursuing M.Tech at IIIT Hyderabad and enjoy building clean, reliable software.
+        I’m interested in algorithms, software systems, and the web. I like solving real-world
+        problems with simple, practical solutions.
+      </div>
+    </div>
+
+    <div id="education" class="card">
+      <div class="title">Education</div>
+      <div class="list">
+        <div class="item">M.Tech — IIIT Hyderabad</div>
+        <div class="item">B.Tech — NIT Andhra Pradesh</div>
+        <div class="item">Sri Chaitanya Junior College — High School</div>
+      </div>
+    </div>
+
+    <div id="skills" class="card">
+      <div class="title">Skills</div>
+      <div class="list">
+        <div class="item">HTML & CSS</div>
+        <div class="item">JavaScript</div>
+        <div class="item">C++</div>
+      </div>
+    </div>
+
+    <div class="footer">© 2025 Abhishek Reddy</div>
+  </div>
+
+</body>
+</html>
